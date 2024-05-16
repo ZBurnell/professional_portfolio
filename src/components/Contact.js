@@ -29,11 +29,11 @@ export default function Contact() {
         <form
           netlify
           name="contact"
-          className=" w-full lg:w-1/3 md:w-1/2 w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="sm:text-4xl text-3xl mb-1 font-medium title-font">
+          className="text-center mb-20">
+          <h1>
             Contact Me
-          </h2>
-          <p className="leading-relaxed mb-5">
+          </h1>
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Get in touch for all your custom application needs and request or if you would like to work together on something cool together.
           </p>
           <div className="relative mb-4">
@@ -44,7 +44,7 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 bg-gray-800 rounded border border-gray-700"
             />
           </div>
           <div className="relative mb-4">
@@ -55,7 +55,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 bg-gray-800 rounded border border-gray-700"
             />
           </div>
           <div className="relative mb-4">
@@ -67,7 +67,7 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="grid grid-cols-4 gap-x-8 gap-y-6 sm:grid-cols-8 bg-gray-800 rounded border border-gray-700"
             />
           </div>
           <button

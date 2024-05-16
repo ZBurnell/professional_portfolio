@@ -21,13 +21,18 @@
   }
 
   header {
-    color-scheme: light dark;
+    /* color-scheme: light dark; */
+    padding: 10px;
     background-color: #002642;
     color: #d9edf0;
+    display: flex;
+    top: 0;
+    position: fixed;
+    width: 100%;
   }
 
   nav {
-    color-scheme: light dark;
+    /* color-scheme: light dark; */
     color: #b4b8c5;
   }
 
@@ -44,26 +49,31 @@
   body {
     margin: 0;
     display: flex;
-    place-items: center;
+    max-width: fit-content;
+    max-width: -moz-fit-content;
+    /* place-items: center;
     min-width: 320px;
-    min-height: 100vh;
+    min-height: 100vh; */
   }
   
   h1 {
     color: #c47335;
     font-size: 3.2em;
     line-height: 1.1;
+    padding: 0.6em 1.2em;
   }
   
   h2 {
-    font: semi-bold;
+    color: #c47335;
     font-size: 2.9em;
     line-height: 1.1;
+    padding: 0.6em 1.2em;
   }
 
-  form {
-    
-  }
+  /* form {
+    align-self: center; 
+    justify-content: center;   
+  } */
   
   button {
     border-radius: 8px;

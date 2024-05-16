@@ -15,22 +15,6 @@ export const projects = [
     image: "./comingSoon.jpg",
     link: "https://github.com/ZBurnell",
   },
-  // {
-  //   title: "DevChat",
-  //   subtitle: "React",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-  //   image: "./comingSoon.jpg",
-  //   link: "https://github.com/ZBurnell",
-  // },
-  // {
-  //   title: "Epic Todo App",
-  //   subtitle: "React",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-  //   image: "./comingSoon.jpg",
-  //   link: "https://github.com/ZBurnell",
-  // },
 ];
 
 // export const footer = [
